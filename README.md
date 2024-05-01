@@ -26,11 +26,12 @@ can designate which version of a dependency to use as follows:
 ```toml
 [project]
 dependencies = [
-  "torch==2.3.0"
+  "torch==2.2.2"
 ]
 ```
 
-In this example we have pinned PyTorch to version 2.3.0, whenever your project is installed it will also install using 
+In this example we have pinned PyTorch to version 2.2.2, whenever your project is installed it will also install this
+version.
 
 ### (b) Use Python 3.8
 Epic’s ML framework includes Python 3.8. You should develop your model using an install of Python 3.8 and also specify 
